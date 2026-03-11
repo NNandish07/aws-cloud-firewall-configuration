@@ -30,7 +30,7 @@ To configure cloud firewall rules using AWS Security Groups to control network a
 
 ## EC2 Instance Running
 
-![Instance Running](instance-running.png)
+![EC2 Instance Running](Experiment-Cloud-Firewall/instance-running.png)
 
 ---
 
@@ -38,25 +38,23 @@ To configure cloud firewall rules using AWS Security Groups to control network a
 
 HTTP (Port 80) and SSH (Port 22) are allowed.
 
-![Security Group Rules](security-group-rules.png)
+![Security Group Rules](Experiment-Cloud-Firewall/security-group-rules.png)
 
 ---
 
 ## Website Accessible when HTTP Port 80 is Allowed
 
-The webpage loads successfully when the firewall allows HTTP traffic.
+The webpage loads successfully when HTTP traffic is allowed.
 
-![Website Working](website-working.png)
+![Website Working](Experiment-Cloud-Firewall/website-working.png)
 
 ---
 
 ## Website Blocked when HTTP Port 80 is Removed
 
-When the HTTP rule is removed from the firewall, the website becomes inaccessible.
+When the HTTP rule is removed from the firewall, the webpage becomes inaccessible.
 
-![Website Blocked](website-blocked.png)
-
----
+![Website Blocked](Experiment-Cloud-Firewall/website-blocked.png)
 
 ## Result
 Cloud firewall rules were successfully configured and tested using AWS EC2 Security Groups.
